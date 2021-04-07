@@ -1,0 +1,6 @@
+group 'hohserg.example.mod'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}

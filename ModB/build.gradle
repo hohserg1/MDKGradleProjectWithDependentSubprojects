@@ -87,6 +87,7 @@ minecraft {
     }
 }
 
+/*
 whenTaskAdded { task->
     println(task)
     
@@ -94,7 +95,7 @@ whenTaskAdded { task->
 afterEvaluate { project ->
     println(project.tasks.toList())
     //tasks.prepareRunClient.dependsOn ':ModA:prepareRunClient'
-}
+}*/
 //
 
 

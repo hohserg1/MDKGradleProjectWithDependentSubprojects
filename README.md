@@ -29,6 +29,5 @@ dependencies {
 ```
 8) Execute `gradle :ModA:genIntellijRuns`
 9) Execute `gradle :ModB:genIntellijRuns`
-10) Edit configuration of `ModB runClient` for add before launch gradle task `:ModA:prepareRunClient`
 11) Try to run `ModA runClient`. Expected: only `ModA` must be in modpack
 12) Try to run `ModB runClient`. Expected: `ModA` and `ModB` must be in modpack

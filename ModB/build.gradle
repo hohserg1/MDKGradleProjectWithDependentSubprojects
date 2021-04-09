@@ -47,6 +47,10 @@ minecraft {
                 mod_b {
                     source sourceSets.main
                 }
+                //HERE
+                mod_a {
+                    source project(":ModA").sourceSets.main
+                }
             }
         }
 
